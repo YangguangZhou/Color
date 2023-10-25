@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>颜色转换器</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">颜色转换器</h1>
+        <div class="form-group">
+            <input type="text" class="form-control" id="colorInput" placeholder="输入RGB或16进制颜色值">
+        </div>
+        <div id="colorDisplay" class="my-4"></div>
+        <div id="output">
+            <p>RGB值: <span id="rgbValue"></span></p>
+            <p>16进制值: <span id="hexValue"></span></p>
+        </div>
+        <div id="instructions" class="text-muted mt-4">
+            <h5>使用说明：</h5>
+            <p>1. 输入RGB或16进制颜色值 例：#279cff 或 279cff 或 rgb(39, 156, 255) 或 rgb(39,156,255)</p>
+            <p>2. 即时预览颜色</p>
+            <p>3. 查看转换结果</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

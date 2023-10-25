@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#colorDisplay {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+#output {
+    font-size: 18px;
+}
